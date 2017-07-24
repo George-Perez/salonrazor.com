@@ -1,0 +1,38 @@
+* {
+    // border: 1px solid Green;
+    border: 0;
+    padding: 0;
+}
+
+.social-bar-container {
+    z-index: 2;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5rem;
+    // text-shadow: 2px 2px #ff0000;
+}
+
+.navbar {
+    z-index: 2;
+    position: relative;
+    color: #e4241d;
+    border-bottom: 3px solid #e4241d;
+}
+
+.fa {
+    display: inline-block;
+    color: #e4241d;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.number,.shop-hours {
+    border-right: 1px solid #7b7b7b;
+}
