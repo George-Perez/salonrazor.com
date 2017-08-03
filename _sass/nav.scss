@@ -5,20 +5,22 @@
 }
 
 .social-bar-container {
+    padding: 3px;
     z-index: 2;
-    position: relative;
+    // position: relative;
     background-color: #ffffff;
+
 }
 
 .navbar-brand {
     font-family: 'Teko', sans-serif;
     font-size: 2.5rem;
-    // text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ff0000;
 }
 
 .navbar {
     z-index: 2;
-    position: relative;
+    // position: relative;
     color: #e4241d;
     border-bottom: 3px solid #e4241d;
 }
@@ -34,5 +36,44 @@ ul {
 }
 
 .number,.shop-hours {
-    border-right: 1px solid #7b7b7b;
+    padding-left: 3px;
+}
+
+.social-icon i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vid-container {
+    position:relative;
+    // overflow: hidden;
+}
+
+video {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    // transform: translate(-50%, -50%);
+    min-width: 50%;
+    min-height: 50%;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #e4241d;
+}
+
+.header-overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    background-color: rgba(0,0,0,0.6);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    // transform: translate(-50%, -50%);
+    color: red;
+    text-align: center;
 }
