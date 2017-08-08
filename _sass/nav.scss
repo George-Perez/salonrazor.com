@@ -9,7 +9,6 @@
     z-index: 2;
     // position: relative;
     background-color: #ffffff;
-
 }
 
 .navbar-brand {
@@ -46,26 +45,24 @@ ul {
 
 .vid-container {
     position:relative;
-    // overflow: hidden;
+    padding : 0;
+    border: 0;
 }
 
 video {
-    z-index: 1;
-    position: absolute;
     top: 0px;
     left: 0px;
-    // transform: translate(-50%, -50%);
     min-width: 50%;
     min-height: 50%;
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #e4241d;
+    border: 0;
 }
 
 .header-overlay {
     z-index: 1;
     position: absolute;
-    top: 0px;
+    top: -6px;
     left: 0px;
     margin: 0px;
     background-color: rgba(0,0,0,0.6);
@@ -73,7 +70,6 @@ video {
     min-height: 100%;
     width: auto;
     height: auto;
-    // transform: translate(-50%, -50%);
-    color: red;
+    color: #e4241d;
     text-align: center;
 }
