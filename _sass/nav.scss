@@ -1,55 +1,63 @@
-* {
-    border: 1px solid Green;
-    // border: 0;
-    padding: 0;
-}
-
-.social-bar-container {
-    padding: 3px;
+// start of navigation bar styling
+.navbar {
     z-index: 2;
-    // position: relative;
-    background-color: #ffffff;
+    position: absolute;
 }
 
 .navbar-brand {
-    font-family: 'Teko', sans-serif;
-    font-size: 2.5rem;
-    text-shadow: 2px 2px #e4241d;
+    padding-left: 20px;
+    font-family: 'Loved by the King', cursive;
+    font-size: 2.5rem; // text-shadow: 2px 2px #e4241d;
 }
 
-.navbar {
-    z-index: 2;
-    // position: relative;
-    color: #e4241d;
-    border-bottom: 3px solid #e4241d;
+// /* change navbar link color (stroke) */
+.navbar-inverse .navbar-nav .nav-link {
+    color: #fff;
 }
 
-.fa {
-    display: inline-block;
-    color: #e4241d;
+a:hover{
+color: #ef73f5 !important;
 }
+
+// /* change navbar-toggler outside border color (stroke) */
+.navbar-inverse .navbar-toggler {
+    position: fixed;
+    border-color: #fff;
+}
+
+// /* change navbar-toggler inside lines color (stroke) */
+.navbar-inverse span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white;
+}
+
+.bg-inverse {
+    background-color: transparent !important;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 ul {
     list-style-type: none;
     margin: 5px;
 }
 
-.number,.shop-hours {
-    padding-left: 3px;
-}
+// end of navigation bar styling
 
-.social-icon i {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
+// start of video styling 
 .vid-container {
-    position:relative;
-    padding : 0;
+    position: relative;
+    padding: 0;
     border: 0;
 }
 
 video {
+    z-index: 0;
+    position: relative;
     top: 0px;
     left: 0px;
     min-width: 50%;
@@ -64,12 +72,13 @@ video {
     position: absolute;
     top: -6px;
     left: 0px;
-    margin: 0px;
-    // background-color: rgba(0,0,0,0.6);
+    margin: 0px; // background-color: rgba(0,0,0,0.6);
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
-    color: #e4241d;
+    color: #fff;
     text-align: center;
 }
+
+// end of video styling

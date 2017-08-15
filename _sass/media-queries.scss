@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 320px) {
   body::before {
-    content: "320px";
+    // content: "320px";
     font-family: Arial, sans-serif;
     color: green;
     position: fixed;
@@ -15,48 +15,47 @@
     font-size: 1.4rem;
     z-index: 9999;
   }
-  .social-bar-container {
+    .foot-link {
     display: none;
   }
 }
 
 @media screen and (min-width: 480px) {
   body::before {
-    content: "480px";
+    // content: "480px";
     color: goldenrod;
-  }
-  .social-bar-container {
-    display: none;
   }
 }
 
 @media screen and (min-width: 576px) {
   body::before {
-    content: "576px";
+    // content: "576px";
     color: maroon;
   }
-
-  .social-bar-container {
-    display: initial;
+  .foot-link {
+    display: none;
   }
-
 }
 
 @media screen and (min-width: 768px) {
   body::before {
-    content: "768px";
+    // content: "768px";
     color: orange;
   }
-
+  
+    .foot-link {
+    display: initial;
+  }
+  
 }
 
 @media screen and (min-width: 992px) {
   body::before {
-    content: "992px";
+    // content: "992px";
     color: orange;
   }
   .navbar-collapse {
-    margin-left: 450px;
+    margin-left: 350px;
   }
 
   .services-container {
@@ -66,7 +65,7 @@
 
 @media screen and (min-width: 1200px) {
   body::before {
-    content: "1200px";
+    // content: "1200px";
     color: red;
   }
   .navbar-collapse {
@@ -76,7 +75,7 @@
 
 @media screen and (min-width: 1400px) {
   body::before {
-    content: "1400px";
+    // content: "1400px";
     color: blue;
   }
   .navbar-collapse {
@@ -86,14 +85,20 @@
 
 @media screen and (min-width: 1600px) {
   body::before {
-    content: "1600px";
-    color: gree;
+    // content: "1600px";
+    color: green;
+  }
+  .navbar-collapse {
+    margin-left: 940px;
   }
 }
 
 @media screen and (min-width: 1800px) {
   body::before {
-    content: "1800px";
+    // content: "1800px";
     color: peru;
+  }
+  .navbar-collapse {
+    margin-left: 1140px;
   }
 }

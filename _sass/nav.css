@@ -1,0 +1,65 @@
+.navbar {
+  z-index: 2;
+  position: absolute; }
+
+.navbar-brand {
+  padding-left: 20px;
+  font-family: 'Loved by the King', cursive;
+  font-size: 2.5rem; }
+
+.navbar-inverse .navbar-nav .nav-link {
+  color: #fff; }
+
+a:hover {
+  color: #ef73f5 !important; }
+
+.navbar-inverse .navbar-toggler {
+  position: fixed;
+  border-color: #fff; }
+
+.navbar-inverse span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white; }
+
+.bg-inverse {
+  background-color: transparent !important;
+  border-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  color: white;
+  font-family: 'Roboto', sans-serif; }
+
+ul {
+  list-style-type: none;
+  margin: 5px; }
+
+.vid-container {
+  position: relative;
+  padding: 0;
+  border: 0; }
+
+video {
+  z-index: 0;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  min-width: 50%;
+  min-height: 50%;
+  width: 100%;
+  height: auto;
+  border: 0; }
+
+.header-overlay {
+  z-index: 1;
+  position: absolute;
+  top: -6px;
+  left: 0px;
+  margin: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  color: #fff;
+  text-align: center; }
+
+/*# sourceMappingURL=nav.css.map */
