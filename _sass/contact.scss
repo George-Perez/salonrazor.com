@@ -9,11 +9,10 @@ label {
     display: block;
     margin-top: 20px;
     margin-bottom: 0px;
-
 }
 
 .form-body {
-    background: url({{ site.github.url }}/images/hair-salon-blur60.jpg);
+    background: url("{{site.baseurl}} images/hair-salon-blur60.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
