@@ -1,3 +1,7 @@
+// * {
+//     border: 1px solid red;
+// }
+
 form {
     padding: 5px 30px 40px 30px;
     width: auto;
@@ -12,7 +16,7 @@ label {
 }
 
 .form-body {
-    background: url("{{site.baseurl}} images/hair-salon-blur60.jpg");
+    background: url("/images/hair-salon-blur60.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -15,8 +15,8 @@
     color: #fff;
 }
 
-a:hover{
-color: #ef73f5 !important;
+a:hover {
+    color: #ef73f5 !important;
 }
 
 // /* change navbar-toggler outside border color (stroke) */
@@ -27,8 +27,8 @@ color: #ef73f5 !important;
 
 // /* change navbar-toggler inside lines color (stroke) */
 .navbar-inverse span.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  color: white;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
 }
 
 .bg-inverse {
@@ -43,16 +43,16 @@ color: #ef73f5 !important;
 
 ul {
     list-style-type: none;
-    margin: 5px;
+
 }
 
 // end of navigation bar styling
-
 // start of video styling 
 .vid-container {
     position: relative;
-    padding: 0;
-    border: 0;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
 video {
@@ -70,13 +70,9 @@ video {
 .header-overlay {
     z-index: 1;
     position: absolute;
-    top: -6px;
-    left: 0px;
-    margin: 0px; // background-color: rgba(0,0,0,0.6);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
 }

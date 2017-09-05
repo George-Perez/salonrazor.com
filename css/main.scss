@@ -8,6 +8,7 @@
 @import "nav";
 @import "about";
 @import "services";
+@import "banner";
 @import "pricing";
 @import "contact";
 @import "brands";
@@ -17,8 +18,15 @@
 // font-family: 'Loved by the King', cursive;
 // font-family: 'Roboto', sans-serif;
 
+
+
 body {
 	font-weight: 200;
+	margin: 0px;
+}
+
+p {
+    margin-left: 0px;
 }
 
 #myBtn {
