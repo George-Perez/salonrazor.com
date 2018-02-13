@@ -16,7 +16,7 @@
 
 <body>
     <div class="page">
-        {% include nav.html %} {% include services.html %} {% include banner.html %} {% include pricing.html %} {% include brands.html %} {% include about.html %} {% include instagram.html %} {% include contact.html %} {% include map.html %} {{ content }} {%
+        {% include nav.html %} {% include services.html %} {% include banner.html %} {% include pricing.html %} {% include brands.html %} {% include about.html %} {% include instagram.html %} {% include map.html %} {{ content }} {%
         include footer.html %}
     </div>
 
@@ -54,7 +54,7 @@
         window.onscroll = function() { scrollFunction() };
 
         function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 20) {
                 document.getElementById("myBtn").style.display = "block";
             }
             else {

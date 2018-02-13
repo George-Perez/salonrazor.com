@@ -7,7 +7,7 @@
 .navbar-brand {
     padding-left: 20px;
     font-family: 'Loved by the King', cursive;
-    font-size: 2.5rem; // text-shadow: 2px 2px #e4241d;
+    font-size: 2rem; // text-shadow: 2px 2px #e4241d;
 }
 
 // /* change navbar link color (stroke) */
@@ -46,7 +46,10 @@ ul {
 
 }
 
+
 // end of navigation bar styling
+
+
 // start of video styling 
 .vid-container {
     position: relative;
@@ -75,6 +78,13 @@ video {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
+    
+    
+}
+
+.hero-tag {
+    font-family: 'Roboto';   
+    size: 200px;
 }
 
 // end of video styling
